@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hospital Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Hospital form</legend>
+        <form novalidate method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="myname" value="Tushar" readonly></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">email:</label></td>
+                    <td><input type="email" id="mail" name="mymail"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password:</label></td>
+                    <td><input type="password" id="pass" name="mypass" maxlength="5" size="5"></td>
+                </tr>
+                <tr>
+                 <td><label for="payment">Payment</label></td>
+                 <td><select name="Payment" id="payment">
+                    <option value="UPI">UPI</option>
+                    <option value="Card">Card</option>
+                </select></td>
+                </tr>
+                <tr>
+                    <td><label for="adr">Address</label></td>
+                    <td><textarea name="Address" id="adr" cols="10" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                   <td><input type="submit"> <input type="reset"></td>
+                   
+                </tr>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
